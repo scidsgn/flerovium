@@ -1,0 +1,24 @@
+header.library-header {
+    position: relative;
+
+    height: 160px;
+    box-sizing: border-box;
+    
+    padding: 16px 16px 16px 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header.library-header img {
+    position: absolute;
+
+    left: 32px;
+    top: 16px;
+    width: 128px;
+}
+
+header.library-header h1 {
+    margin: 0px 0px 8px 0px;
+}

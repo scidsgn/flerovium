@@ -1,0 +1,8 @@
+div.queue-panel {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+div.queue-panel-queue {
+    overflow-y: auto;
+}

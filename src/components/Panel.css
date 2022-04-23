@@ -1,0 +1,7 @@
+div.panel {
+    background: #222;
+
+    border-radius: 4px;
+
+    overflow: hidden;
+}

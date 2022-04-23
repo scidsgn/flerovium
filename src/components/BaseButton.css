@@ -1,0 +1,58 @@
+button.base-button {
+    position: relative;
+    background: transparent;
+    color: #fff;
+
+    font-family: var(--font);
+    font-size: 11pt;
+
+    margin: 2px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+
+    display: inline-flex;
+    align-items: center;
+}
+
+button.base-button.checked {
+    background: var(--accent);
+}
+
+button.base-button::after {
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    background: transparent;
+    content: "";
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button.base-button:not(:disabled):hover::after {
+    background: #ffffff18;
+
+    border-color: #fff2;
+}
+
+button.base-button:not(:disabled):active::after {
+    background: #fff3;
+}
+
+button.base-button:disabled {
+    opacity: 0.35;
+}
+
+button.base-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+button.base-button span {
+    margin-left: 8px;
+}

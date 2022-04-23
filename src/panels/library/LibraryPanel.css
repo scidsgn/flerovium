@@ -1,0 +1,15 @@
+div.library-panel {
+    display: grid;
+    grid-template-rows: 44px auto;
+    grid-row: span 2;
+}
+
+header.library-panel-header {
+    padding: 4px;
+
+    display: flex;
+}
+
+div.library-panel-content {
+    overflow-y: scroll;
+}

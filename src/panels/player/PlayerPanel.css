@@ -1,0 +1,57 @@
+div.player-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.player-panel-seeker {
+    display: flex;
+}
+
+div.player-panel-seeker div.double-slider {
+    width: 250px;
+
+    margin: 0px 8px;
+}
+
+div.player-panel-seeker span {
+    font-size: 80%;
+
+    opacity: 0.6;
+}
+
+div.player-panel-transport,
+div.player-panel-volume {
+    display: flex;
+    align-items: center;
+}
+
+div.player-panel-transport {
+    margin-top: 16px;
+}
+
+div.player-panel-track {
+    text-align: center;
+
+    padding: 8px 16px;
+}
+
+div.player-panel-track p {
+    margin: 4px;
+}
+
+p.player-panel-track-title {
+    font-weight: 500;
+    font-size: 110%;
+}
+
+p.player-panel-track-artist {
+    font-size: 90%;
+}
+
+div.player-panel-cover-art img {
+    width: 140px;
+
+    margin-top: 6px;
+}

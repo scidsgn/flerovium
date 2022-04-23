@@ -1,0 +1,23 @@
+div.library-track {
+    padding: 4px 8px;
+
+    display: grid;
+    grid-template-columns: auto 3fr repeat(2, 2fr) auto;
+    align-items: center;
+}
+
+div.library-track:hover {
+    background: #fff1;
+}
+
+div.library-track img.cover-art {
+    width: 32px;
+}
+
+div.library-track p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin: 4px 8px;
+}

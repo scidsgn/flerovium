@@ -1,0 +1,7 @@
+img.cover-art {
+    width: auto;
+    height: auto;
+
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 2px #222;
+}
