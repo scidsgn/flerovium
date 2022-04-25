@@ -11,5 +11,5 @@ header.library-panel-header {
 }
 
 div.library-panel-content {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
